@@ -62,11 +62,11 @@
 	</data>
 	<style>
 		<font>cursive, 'Comic Sans MS'</font>
-		<textsize>30px</textsize>
-		<width>300px</width>
-		<height>100px</height>
+		<textsize>15px</textsize>
+		<width>80px</width>
+		<height>40px</height>
 		<radius>5px</radius>
-		<margin>10 10 10 10</margin>
+		<margin>5 5 5 5</margin>
 		<color>#ffffff</color>
 		<backgroundimg>images/picbox.png</backgroundimg>
 	</style>
