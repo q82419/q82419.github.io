@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<data>
+		<id>mainbutton1</id>
+		<name>Homepage</name>
+		<backcolor>#823327</backcolor>
+		<href>index.html</href>
+	</data>
+	<data>
+		<id>picboxlist2</id>
+		<name>C/C++</name>
+		<backcolor>#b64a02</backcolor>
+		<href>#</href>
+	</data>
+	<data>
+		<id>picboxlist3</id>
+		<name>OpenMP</name>
+		<backcolor>#b68602</backcolor>
+		<href>#</href>
+	</data>
+	<data>
+		<id>picboxlist4</id>
+		<name>OpenCL</name>
+		<backcolor>#959a0e</backcolor>
+		<href>#</href>
+	</data>
+	<data>
+		<id>picboxlist5</id>
+		<name>OpenCV</name>
+		<backcolor>#589014</backcolor>
+		<href>#</href>
+	</data>
+	<style>
+		<font>cursive, 'Comic Sans MS'</font>
+		<textsize>50px</textsize>
+		<width>250px</width>
+		<height>160px</height>
+		<radius>5px</radius>
+		<margin>20 20 20 20</margin>
+		<color>#ffffff</color>
+		<backgroundimg>images/picbox.png</backgroundimg>
+	</style>
+</root>

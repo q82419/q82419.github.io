@@ -1,0 +1,11 @@
+.pictureboxset {
+	clear: both;
+	margin: 0 auto;
+	overflow: auto;
+}
+.picturebox {
+	position: relative;
+	text-align: center;
+	float: left;
+    z-index: 1;
+}
