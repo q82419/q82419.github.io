@@ -66,7 +66,7 @@
 		<width>80px</width>
 		<height>40px</height>
 		<radius>5px</radius>
-		<margin>5 5 5 5</margin>
+		<margin>10 5 10 5</margin>
 		<color>#ffffff</color>
 		<backgroundimg>images/picbox.png</backgroundimg>
 	</style>

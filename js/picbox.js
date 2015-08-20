@@ -30,9 +30,6 @@ function getBackgroundCSSString(color, img){
         dataURL: The URL of the data XML file.
         column:  The number of column, 0 means that autosizes by the parent's width.
 */
-
-
-
 function constructPictureBoxSet(content, dataURL, column){
 	$.ajax({
 	    url: dataURL,
@@ -63,13 +60,13 @@ function constructPictureBoxSet(content, dataURL, column){
 	    				 .find("#" + dataEntry["id"])
 	    				 .css(style)
 	    		         .css({"background": getBackgroundCSSString(dataEntry["backcolor"], backimg),
-	    		         	   "background-size": "100% 100%",
-	    		         	   "text-shadow": getShadowCSSString(dataEntry["backcolor"])})
+	    		         	   "background-size": "100% 100%"
+	    		         	   /*"text-shadow": getShadowCSSString(dataEntry["backcolor"])*/})
 	    		         .append('<div class="picturebox-cover"><a href="' + dataEntry["href"] + '"></a></div>')
 					     .hover(function(){
-					         $(this).animate({boxShadow: "0 3px 8px 2px rgba(50, 50, 50, 0.6)"}, 300);
+					         $(this).animate({boxShadow: "0 3px 8px 2px rgba(50, 50, 50, 0.6)", textShadow: "#fff 0px 0px 3px"}, 300);
 					      }, function(){
-					   	     $(this).animate({boxShadow: "none"}, 600);
+					   	     $(this).animate({boxShadow: "none", textShadow: "none"}, 600);
 					      })
 					     .find('.picturebox-cover')
 					     .css({"display": "block", "background": "#000000", "opacity": _opacity,
