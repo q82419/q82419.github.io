@@ -61,7 +61,7 @@
         <href>#</href>
     </data>
     <style>
-        <font>cursive, 'Comic Sans MS'</font>
+        <font>cursive, 'Comic Sans MS', Arial</font>
         <textsize>30px</textsize>
         <width>130px</width>
         <height>60px</height>
