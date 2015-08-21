@@ -3,6 +3,3 @@ $(document).ready(function(){
     constructPictureBoxSet($("#content"), 'data/programming_list.xml', 1, true);
     $("#menu").sticky({ topSpacing: 0 });
 });
-$(window).resize(function(){
-    $("#menu").sticky({ topSpacing: 0 });
-})

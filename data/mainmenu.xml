@@ -42,5 +42,6 @@
         <hoverimg>images/stripes.png</hoverimg>
         <hoverimgoffset>-200</hoverimgoffset>
         <shadow>1px 1px #222222</shadow>
+        <listwidth>900px</listwidth>
     </style>
 </root>

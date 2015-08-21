@@ -30,6 +30,7 @@ function constructMenuList(content, dataURL){
                 _hovercolor = _style.find("hovercolor").text(),
                 _hoverimg = _style.find("hoverimg").text(),
                 _hoverimgoffset = _style.find("hoverimgoffset").text(),
+                _listwidth = parsePx(_style.find("listwidth").text()),
                 entryCnt = 0;
             style["width"] = _style.find("width").text();
             style["height"] = _style.find("height").text();
@@ -38,7 +39,7 @@ function constructMenuList(content, dataURL){
             style["margin"] = _style.find("margin").text();
             style["color"] = _style.find("color").text();
             style["text-shadow"] = _style.find("shadow").text();
-
+            list.css({"margin": "0 auto"});
             $(xml).find("data").each(function(index){
                 var _id = $(this).find("id").text(),
                     _name = $(this).find("name").text(),
@@ -56,6 +57,10 @@ function constructMenuList(content, dataURL){
                          $(this).css(getMenuListCSSString(_back, style["height"], _hoverimg, _hoverimgoffset, style["color"]));
                      });
             });
+            list.css({width: Math.min(_listwidth, $(content).width()).toString() + "px"});
+            $(window).resize(function(){
+                list.css({width: Math.min(_listwidth, $(content).width()).toString() + "px"});
+            })
         }
     });
 }
