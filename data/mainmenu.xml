@@ -1,43 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
-	<data>
-		<id>mainbutton1</id>
-		<name>Homepage</name>
-		<backcolor>#823327</backcolor>
-		<href>index.html</href>
-	</data>
-	<data>
-		<id>picboxlist2</id>
-		<name>C/C++</name>
-		<backcolor>#b64a02</backcolor>
-		<href>#</href>
-	</data>
-	<data>
-		<id>picboxlist3</id>
-		<name>OpenMP</name>
-		<backcolor>#b68602</backcolor>
-		<href>#</href>
-	</data>
-	<data>
-		<id>picboxlist4</id>
-		<name>OpenCL</name>
-		<backcolor>#959a0e</backcolor>
-		<href>#</href>
-	</data>
-	<data>
-		<id>picboxlist5</id>
-		<name>OpenCV</name>
-		<backcolor>#589014</backcolor>
-		<href>#</href>
-	</data>
-	<style>
-		<font>cursive, 'Comic Sans MS'</font>
-		<textsize>50px</textsize>
-		<width>250px</width>
-		<height>160px</height>
-		<radius>5px</radius>
-		<margin>20 20 20 20</margin>
-		<color>#ffffff</color>
-		<backgroundimg>images/picbox.png</backgroundimg>
-	</style>
+    <data>
+        <id>mainbutton1</id>
+        <name>Homepage</name>
+        <backimg>images/menu1.png</backimg>
+        <href>index.html</href>
+    </data>
+    <data>
+        <id>mainbutton2</id>
+        <name>Update Record</name>
+        <backimg>images/menu2.png</backimg>
+        <href>#</href>
+    </data>
+    <data>
+        <id>mainbutton3</id>
+        <name>programming</name>
+        <backimg>images/menu3.png</backimg>
+        <href>#</href>
+    </data>
+    <data>
+        <id>mainbutton4</id>
+        <name>Research</name>
+        <backimg>images/menu4.png</backimg>
+        <href>#</href>
+    </data>
+    <data>
+        <id>mainbutton5</id>
+        <name>About</name>
+        <backimg>images/menu5.png</backimg>
+        <href>#</href>
+    </data>
+    <style>
+        <font>cursive, 'Comic Sans MS'</font>
+        <textsize>18px</textsize>
+        <width>160px</width>
+        <height>70px</height>
+        <radius>0</radius>
+        <margin>0 3 0 3</margin>
+        <color>#888888</color>
+        <hovercolor>#ffffff</hovercolor>
+        <hoverimg>images/stripes.png</hoverimg>
+        <hoverimgoffset>-200</hoverimgoffset>
+        <shadow>1px 1px #222222</shadow>
+    </style>
 </root>

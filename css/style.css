@@ -16,6 +16,10 @@ a {
     text-decoration: none;
 }
 
+.button {
+    display: block;
+}
+
 #banner {
     height: 120px;
     background: url(../images/banner.png) repeat top left;
@@ -23,42 +27,14 @@ a {
     overflow: auto;
 }
 
-
 #menu {
     background: #0c0c0c;
-    height: 70px;
     text-align: center;
     overflow: hidden;
     z-index: 9999;
-}
 
-
-#menu ul {
-    margin-left: 50px;
+    height: 70px;
 }
-#menu ul li a{
-    width: 160px;
-    margin: 0 3 0 3;
-    float: left;
-    text-align: center;
-    font: bold 18px/70px cursive, Arial, sans-serif;
-    text-shadow: 1px 1px #222222;
-    color: #888888;
-}
-.button {
-    display: block;
-    -moz-transition: all 4s ease-out;
-    -webkit-transition: all 4s ease-out;
-    -o-transition: all 4s ease-out;
-    transition: all 4s ease-out;
-}
-.button:hover {
-    -moz-transition: all 0.4s ease;
-    -webkit-transition: all 0.4s ease;
-    -o-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-}
-
 
 #content {
     clear: both;

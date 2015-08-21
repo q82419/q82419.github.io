@@ -1,6 +1,8 @@
 $(document).ready(function(){
+    constructMenuList($("#menu"), 'data/mainmenu.xml');
+    constructPictureBoxSet($("#content"), 'data/programming_list.xml', 1, true);
     $("#menu").sticky({ topSpacing: 0 });
-    $("a[id^=mainbutton]").each(setButtonCSSNormal);
-    $("a[id^=mainbutton]").hover(setButtonCSSHover, setButtonCSSNormal);
-	constructPictureBoxSet($("#content"), 'data/programming_list.xml', 0);
 });
+$(window).resize(function(){
+    $("#menu").sticky({ topSpacing: 0 });
+})

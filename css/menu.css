@@ -1,0 +1,20 @@
+#menu ul {
+    margin-left: 50px;
+}
+#menu ul li a{
+    float: left;
+    text-align: center;
+}
+
+.menulistbutton {
+    -moz-transition: all 4s ease-out;
+    -webkit-transition: all 4s ease-out;
+    -o-transition: all 4s ease-out;
+    transition: all 4s ease-out;
+}
+.menulistbutton:hover {
+    -moz-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
