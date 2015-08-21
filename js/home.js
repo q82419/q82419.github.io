@@ -1,10 +1,15 @@
+function setContentSize(content, maxsize){
+	$(content).css({"width": Math.min(maxsize, $("body").width() - 40), 
+                    "margin-left": Math.max(10, ($("body").width() - maxsize - 20) / 2)});
+}
+
 $(document).ready(function(){
     constructMenuList($("#menu"), 'data/mainmenu.xml');
     constructPictureBoxSet($("#content"), 'data/programming_list.xml', 1, true);
-    $("#content").css({width: Math.min(950, $(window).width())});
+    setContentSize($("#content"), 910);
     $("#menu").sticky({ topSpacing: 0 });
 });
 
 $(window).resize(function(){
-    $("#content").css({width: Math.min(950, $(window).width())});
+    setContentSize($("#content"), 910);
 });

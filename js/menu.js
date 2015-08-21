@@ -57,9 +57,9 @@ function constructMenuList(content, dataURL){
                          $(this).css(getMenuListCSSString(_back, style["height"], _hoverimg, _hoverimgoffset, style["color"]));
                      });
             });
-            list.css({width: Math.min(_listwidth, $(content).width()).toString() + "px"});
+            list.css({width: Math.min(_listwidth, $("body").width()).toString() + "px"});
             $(window).resize(function(){
-                list.css({width: Math.min(_listwidth, $(content).width()).toString() + "px"});
+                list.css({width: Math.min(_listwidth, $("body").width()).toString() + "px"});
             })
         }
     });
