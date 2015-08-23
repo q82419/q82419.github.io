@@ -2,14 +2,28 @@
 <root>
     <!--
         homepage        #ff8f86
-            styles          #e15a5a
-            elements        #e1675a
-            back-end        #e15a6a
+            styles          #f57463
+            elements        #f56363
+            back-end        #f56374
         update record   #ffb85b
         programming     #38eb4d
         research        #28c6c8
         about           #568ff8
     -->
+    <data>
+        <category>Programming</category>
+        <categoryhref>programming.html</categoryhref>
+        <categoryback>#38eb4d</categoryback>
+        <subcategory>Constructed</subcategory>
+        <subcategoryhref>#</subcategoryhref>
+        <subcategoryback>#38eb4d</subcategoryback>
+        <title>Programming page is constructed.</title>
+        <date>2015/08/24</date>
+        <body>Add the new page, whtch is the most important area in the future.&lt;br&gt;
+              New articles will pushed slowly after the most UI components are finished.&lt;br&gt;
+              先創立這頁，同時也是未來最重要的區域。&lt;br&gt;
+              這區的新文章會等到幾乎所有UI元件都完成後才會開始慢慢放上來。</body>
+    </data>
     <data>
         <category>Update Record</category>
         <categoryhref>update.html</categoryhref>
@@ -30,7 +44,7 @@
         <categoryback>#ff8f86</categoryback>
         <subcategory>Elements</subcategory>
         <subcategoryhref>#</subcategoryhref>
-        <subcategoryback>#e1675a</subcategoryback>
+        <subcategoryback>#f56363</subcategoryback>
         <title>Record Lists UI components completed.</title>
         <date>2015/08/23</date>
         <body>This is for records using, such as update record page (this page).&lt;br&gt;
@@ -42,7 +56,7 @@
         <categoryback>#ff8f86</categoryback>
         <subcategory>Back-end</subcategory>
         <subcategoryhref>#</subcategoryhref>
-        <subcategoryback>#e15a6a</subcategoryback>
+        <subcategoryback>#f56374</subcategoryback>
         <title>Website hosting space still selecting.</title>
         <date>2015/08/21</date>
         <body>Where to put this website is still considering.&lt;br&gt;
@@ -56,7 +70,7 @@
         <categoryback>#ff8f86</categoryback>
         <subcategory>Elements</subcategory>
         <subcategoryhref>#</subcategoryhref>
-        <subcategoryback>#e1675a</subcategoryback>
+        <subcategoryback>#f56363</subcategoryback>
         <title>Picture Box UI components completed.</title>
         <date>2015/08/20</date>
         <body>Picture Box button UI is completed, and for list use.&lt;br&gt;
@@ -70,7 +84,7 @@
         <categoryback>#ff8f86</categoryback>
         <subcategory>Styles</subcategory>
         <subcategoryhref>#</subcategoryhref>
-        <subcategoryback>#e15a5a</subcategoryback>
+        <subcategoryback>#f57463</subcategoryback>
         <title>Website Designment started.</title>
         <date>2015/08/16</date>
         <body>The index.html page and the main website template is completed.&lt;br&gt;
@@ -80,12 +94,12 @@
     </data>
     <style>
         <maxwidth>980px</maxwidth>
-        <boxradius>4px</boxradius>
+        <boxradius>5px</boxradius>
 
         <headbackcolor>#fcf9f4</headbackcolor>
         <headhoverbackcolor>#f4f9fc</headhoverbackcolor>
         <headpadding>10 10 10 10</headpadding>
-        <headheight>30px</headheight>
+        <headheight>25px</headheight>
         <headitemmargin>10px</headitemmargin>
         
         <bodybackcolor>#faf4e8</bodybackcolor>
