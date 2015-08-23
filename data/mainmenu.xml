@@ -10,7 +10,7 @@
         <id>mainbutton2</id>
         <name>Update Record</name>
         <backimg>images/menu2.png</backimg>
-        <href>#</href>
+        <href>update.html</href>
     </data>
     <data>
         <id>mainbutton3</id>
@@ -31,17 +31,17 @@
         <href>#</href>
     </data>
     <style>
-        <font>cursive, Arial, Helvetica, 'sans-serif'</font>
-        <textsize>18px</textsize>
+        <font>'Apple Chancery', 'Monotype Corsiva', 'Comic Sans MS', 'sans-serif'</font>
+        <textsize>20px</textsize>
         <width>160px</width>
         <height>70px</height>
         <radius>0</radius>
-        <margin>0 3 0 3</margin>
+        <margin>0 0 0 0</margin>
         <color>#888888</color>
         <hovercolor>#ffffff</hovercolor>
         <hoverimg>images/stripes.png</hoverimg>
         <hoverimgoffset>-200</hoverimgoffset>
         <shadow>1px 1px #222222</shadow>
-        <listwidth>950px</listwidth>
+        <listwidth>1000px</listwidth>
     </style>
 </root>

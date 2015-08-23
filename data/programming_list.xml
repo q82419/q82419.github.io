@@ -61,7 +61,7 @@
         <href>#</href>
     </data>
     <style>
-        <font>cursive, Arial, Helvetica, 'sans-serif'</font>
+        <font>'Apple Chancery', 'Monotype Corsiva', 'Comic Sans MS', 'sans-serif'</font>
         <textsize>30px</textsize>
         <width>150px</width>
         <height>50px</height>

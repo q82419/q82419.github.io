@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <!--
+        homepage        #ff8f86
+            styles          #e15a5a
+            elements        #e1675a
+            back-end        #e15a6a
+        update record   #ffb85b
+        programming     #38eb4d
+        research        #28c6c8
+        about           #568ff8
+    -->
+    <data>
+        <category>Update Record</category>
+        <categoryhref>update.html</categoryhref>
+        <categoryback>#ffb85b</categoryback>
+        <subcategory>Constructed</subcategory>
+        <subcategoryhref>#</subcategoryhref>
+        <subcategoryback>#ffb85b</subcategoryback>
+        <title>Update Record page is constructed.</title>
+        <date>2015/08/23</date>
+        <body>Started to record every change and updating record of this website.&lt;br&gt;
+              The record will be shown on this page.&lt;br&gt;
+              開始記錄此網站每項改變跟更新。&lt;br&gt;
+              所有更新記錄都會顯示在本頁。</body>
+    </data>
+    <data>
+        <category>Homepage</category>
+        <categoryhref>index.html</categoryhref>
+        <categoryback>#ff8f86</categoryback>
+        <subcategory>Elements</subcategory>
+        <subcategoryhref>#</subcategoryhref>
+        <subcategoryback>#e1675a</subcategoryback>
+        <title>Record Lists UI components completed.</title>
+        <date>2015/08/23</date>
+        <body>This is for records using, such as update record page (this page).&lt;br&gt;
+              這個UI元件給記錄列表使用，像是本頁的更新記錄列表。</body>
+    </data>
+    <data>
+        <category>Homepage</category>
+        <categoryhref>index.html</categoryhref>
+        <categoryback>#ff8f86</categoryback>
+        <subcategory>Back-end</subcategory>
+        <subcategoryhref>#</subcategoryhref>
+        <subcategoryback>#e15a6a</subcategoryback>
+        <title>Website hosting space still selecting.</title>
+        <date>2015/08/21</date>
+        <body>Where to put this website is still considering.&lt;br&gt;
+              Three main free hosting: github, NTUhomepage, lionfree.net are for temporary using.&lt;br&gt;
+              還在考慮要把網站放到哪個空間。&lt;br&gt;
+              目前主要暫時使用這三個：github，台大個人網頁空間，lionfree.net。</body>
+    </data>
+    <data>
+        <category>Homepage</category>
+        <categoryhref>index.html</categoryhref>
+        <categoryback>#ff8f86</categoryback>
+        <subcategory>Elements</subcategory>
+        <subcategoryhref>#</subcategoryhref>
+        <subcategoryback>#e1675a</subcategoryback>
+        <title>Picture Box UI components completed.</title>
+        <date>2015/08/20</date>
+        <body>Picture Box button UI is completed, and for list use.&lt;br&gt;
+              The shadow special effects and animations are included.&lt;br&gt;
+              Picture Box按鈕介面完成，可供選單運用。&lt;br&gt;
+              具有陰影特效和漸層動畫效果。</body>
+    </data>
+    <data>
+        <category>Homepage</category>
+        <categoryhref>index.html</categoryhref>
+        <categoryback>#ff8f86</categoryback>
+        <subcategory>Styles</subcategory>
+        <subcategoryhref>#</subcategoryhref>
+        <subcategoryback>#e15a5a</subcategoryback>
+        <title>Website Designment started.</title>
+        <date>2015/08/16</date>
+        <body>The index.html page and the main website template is completed.&lt;br&gt;
+              And the main menu buttons are completed.&lt;br&gt;
+              首頁跟主要網頁版型完成。&lt;br&gt;
+              主選單按鈕圖樣動畫製作完畢。</body>
+    </data>
+    <style>
+        <maxwidth>980px</maxwidth>
+        <boxradius>4px</boxradius>
+
+        <headbackcolor>#fcf9f4</headbackcolor>
+        <headhoverbackcolor>#f4f9fc</headhoverbackcolor>
+        <headpadding>10 10 10 10</headpadding>
+        <headheight>30px</headheight>
+        <headitemmargin>10px</headitemmargin>
+        
+        <bodybackcolor>#faf4e8</bodybackcolor>
+        <bodyhoverbackcolor>#e8f3fa</bodyhoverbackcolor>
+        <bodypadding>10 30 10 30</bodypadding>
+        <bodyfont>Georgia, "Heiti TC", "Microsoft YaHei", "Microsoft JhengHei"</bodyfont>
+        <bodyfontsize>17px</bodyfontsize>
+        <bodyfontcolor>#424242</bodyfontcolor>
+        
+        <categorywidth>120px</categorywidth>
+        <categoryfont>'Apple Chancery', 'Monotype Corsiva', 'Comic Sans MS', serif</categoryfont>
+        <categoryfontsize>15px</categoryfontsize>
+        <categoryfontcolor>#eeeeee</categoryfontcolor>
+        <categoryfontcolorhover>#ffffff</categoryfontcolorhover>
+        <categorybackcover>images/piccover.png</categorybackcover>
+
+        <subcategorywidth>120px</subcategorywidth>
+        <subcategoryfont>'Apple Chancery', 'Monotype Corsiva', 'Comic Sans MS', serif</subcategoryfont>
+        <subcategoryfontsize>15px</subcategoryfontsize>
+        <subcategoryfontcolor>#eeeeee</subcategoryfontcolor>
+        <subcategoryfontcolorhover>#ffffff</subcategoryfontcolorhover>
+        <subcategorybackcover>images/picbox.png</subcategorybackcover>
+
+        <titlefont>'Palatino Linotype', 'Book Antiqua', Palatino, serif</titlefont>
+        <titlefontsize>22px</titlefontsize>
+        <titlefontcolor>#3d3d3d</titlefontcolor>
+        
+        <datewidth>108px</datewidth>
+        <datefont>Courier, monospace</datefont>
+        <datefontsize>15px</datefontsize>
+        <datefontcolor>#ffffff</datefontcolor>
+        <dateback>#303030</dateback>
+        <datebackcover></datebackcover>
+    </style>
+</root>

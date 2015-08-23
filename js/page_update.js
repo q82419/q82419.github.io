@@ -4,9 +4,8 @@ function setContentSize(maxsize){
 }
 
 $(document).ready(function(){
-    constructMenuList($("#menu"), 'data/mainmenu.xml');
-    constructPictureBoxSet($("#picboxpanel"), 'data/programming_list.xml', 0, true);
     constructRecordList($("#recordlist"), 'data/update_record.xml');
+    constructMenuList($("#menu"), 'data/mainmenu.xml');
     setContentSize(1000);
     $("#menu").sticky({ topSpacing: 0 });
 });
