@@ -1,7 +1,14 @@
 function parsePx(w){
     return parseInt(w.replace("px", ""));
 }
-function getPictureBoxBackgroundCSSString(color, img){
+function getRecordListBoxBackCSSString(color, img, capacity){
+    var back = "#",
+        retStr = "rgba(";
+    for(i = 0; i < 3; i++)
+        retStr += Math.round(parseInt(color.substr(2 * i + 1, 2), 16) * capacity) + ", ";
+    return retStr + "1) url(" + img + ") no-repeat center";
+}
+function getRecordListBoxBackHoverCSSString(color, img){
     return color + " url(" + img + ") no-repeat center";
 }
 function setRecordListSize(content, parent, maxsize){
@@ -73,7 +80,7 @@ function constructRecordList(content, dataURL){
                     _title = $(this).find("title").text(),
                     _date = $(this).find("date").text(),
                     _body = $(this).find("body").text(),
-                    _capacity = 0.3;
+                    _capacity = 0.8;
                 entryCnt += 1;
                 list.append('<div class="recordentry" id="updaterecord' + entryCnt.toString() + '">\
                                 <div class="recordentryhead">\
@@ -97,39 +104,29 @@ function constructRecordList(content, dataURL){
                             nowEntry.find(".recordentrybody").css({"background": bodystyle["background"]});
                         });
                 nowEntryHead.find(".recordentrycategory").css(categorystyle)
-                            .css({"background": getPictureBoxBackgroundCSSString(_catecoryback, _categorybackcover), "background-size": "100% 100%"})
+                            .css({"background": getRecordListBoxBackCSSString(_catecoryback, _categorybackcover, _capacity), "background-size": "100% 100%"})
                             .hover(function(){
-                                $(this).css({"color": _style.find("categoryfontcolorhover").text()});
+                                $(this).css({"background": getRecordListBoxBackHoverCSSString(_catecoryback, _categorybackcover),
+                                             "background-size": "100% 100%",
+                                             "color": _style.find("categoryfontcolorhover").text()});
                             }, function(){
-                                $(this).css({"color": categorystyle["color"]});
+                                $(this).css({"background": getRecordListBoxBackCSSString(_catecoryback, _categorybackcover, _capacity),
+                                             "background-size": "100% 100%",
+                                             "color": categorystyle["color"]});
                             });
                 nowEntryHead.find(".recordentrysubcategory").css(subcategorystyle)
-                            .css({"background": getPictureBoxBackgroundCSSString(_subcatecoryback, _subcategorybackcover), "background-size": "100% 100%"})
+                            .css({"background": getRecordListBoxBackCSSString(_subcatecoryback, _subcategorybackcover, _capacity), "background-size": "100% 100%"})
                             .hover(function(){
-                                $(this).css({"color": _style.find("subcategoryfontcolorhover").text()});
+                                $(this).css({"background": getRecordListBoxBackHoverCSSString(_subcatecoryback, _subcategorybackcover),
+                                             "background-size": "100% 100%",
+                                             "color": _style.find("subcategoryfontcolorhover").text()});
                             }, function(){
-                                $(this).css({"color": subcategorystyle["color"]});
+                                $(this).css({"background": getRecordListBoxBackCSSString(_subcatecoryback, _subcategorybackcover, _capacity),
+                                             "background-size": "100% 100%",
+                                             "color": subcategorystyle["color"]});
                             });
                 nowEntryHead.find(".recordentrytitle").css(titlestyle);
                 nowEntryHead.find(".recordentrydate").css(datestyle);
-/*
-                         .append('<div class="picturebox-cover"><a href="' + _href + '"></a></div>')
-                         .hover(function(){
-                              $(this).animate({boxShadow: "0 2px 5px 2px rgba(50, 50, 50, 0.6)"}, 300);
-                          }, function(){
-                              $(this).animate({boxShadow: "none"}, 600);
-                          })
-                         .find('.picturebox-cover')
-                         .css({"display": "block", "background": "#000000", "opacity": _opacity,
-                               "width": style["width"], "height": style["height"], "position": "absolute",
-                               "left": "0", "top": "0", "border-radius": style["border-radius"]})
-                         .hover(function(){
-                              $(this).animate({"opacity": "0"}, 300);
-                          }, function(){
-                              $(this).animate({"opacity": _opacity}, 600);
-                          })
-                         .find('a')
-                         .css({"width": style["width"], "height": style["height"], display: "block"});*/
 
             });
             setRecordListSize(content, content.parent(), _listwidth);

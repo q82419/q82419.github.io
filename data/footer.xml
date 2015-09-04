@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <data>
+        <content>No copyright</content>
+    </data>
+    <icon>
+        <image>images/footer1.png</image>
+        <imagehover>images/footer1_hover.png</imagehover>
+        <href>#</href>
+    </icon>
+    <icon>
+        <image>images/footer2.png</image>
+        <imagehover>images/footer2_hover.png</imagehover>
+        <href>#</href>
+    </icon>
+    <icon>
+        <image>images/footer3.png</image>
+        <imagehover>images/footer3_hover.png</imagehover>
+        <href>#</href>
+    </icon>
+    <style>
+        <font>'Palatino Linotype', 'Book Antiqua', Palatino, serif</font>
+        <textsize>15px</textsize>
+        <height>50px</height>
+        <iconsize>30px</iconsize>
+        <itemmargin>10px</itemmargin>
+        <color>#eeeeee</color>
+        <background>#ffffff</background>
+        <padding>0 20 0 20</padding>
+        <listwidth>1000px</listwidth>
+        <radius>5px</radius>
+    </style>
+</root>

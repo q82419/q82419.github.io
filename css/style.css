@@ -1,9 +1,9 @@
 body, div, ul, li, h1, h2, h3, h4, h5, h6, p { 
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 body {
-    background:#e4e8ec url(../images/overlay.png) repeat top left fixed;
+    background: #e4e8ec url(../images/overlay.png) repeat top left fixed;
     text-align: center;
 }
 
@@ -36,7 +36,7 @@ a {
 
 #banner {
     height: 120px;
-    background: url(../images/banner.png) repeat top left;
+    background: #0c0c0c url(../images/banner.png) no-repeat;
     background-position: center center;
     overflow: auto;
 }
@@ -56,6 +56,7 @@ a {
 
 #footer {
     position: fixed;
+    text-align: center;
     bottom: 0px;
     background: #0c0c0c;
     height: 50px;

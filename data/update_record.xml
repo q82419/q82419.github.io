@@ -11,6 +11,20 @@
         about           #568ff8
     -->
     <data>
+        <category>Homepage</category>
+        <categoryhref>index.html</categoryhref>
+        <categoryback>#ff8f86</categoryback>
+        <subcategory>Styles</subcategory>
+        <subcategoryhref>#</subcategoryhref>
+        <subcategoryback>#f57463</subcategoryback>
+        <title>Banner picture is updated.</title>
+        <date>2015/08/28</date>
+        <body>Changed the banner picture into a strange style...&lt;br&gt;
+              Lack of sense of design, so a simple and unique banner is hard to draw.&lt;br&gt;
+              把橫幅標題圖片改成一個詭異的風格...&lt;br&gt;
+              缺乏設計感，做不出簡約又獨特的圖片。</body>
+    </data>
+    <data>
         <category>Programming</category>
         <categoryhref>programming.html</categoryhref>
         <categoryback>#38eb4d</categoryback>

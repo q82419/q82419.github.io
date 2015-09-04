@@ -5,6 +5,7 @@ function setContentSize(maxsize){
 
 $(document).ready(function(){
     constructMenuList($("#menu"), 'data/mainmenu.xml');
+    constructFooter($("#footer"), 'data/footer.xml');
     setContentSize(1000);
     $("#menu").sticky({ topSpacing: 0 });
 });

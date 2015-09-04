@@ -6,6 +6,7 @@ function setContentSize(maxsize){
 $(document).ready(function(){
     constructRecordList($("#recordlist"), 'data/update_record.xml');
     constructMenuList($("#menu"), 'data/mainmenu.xml');
+    constructFooter($("#footer"), 'data/footer.xml');
     setContentSize(1000);
     $("#menu").sticky({ topSpacing: 0 });
 });
