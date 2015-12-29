@@ -5,7 +5,7 @@ function setContentSize(maxsize){
 
 $(document).ready(function(){
     constructMenuList($("#menu"), 'data/mainmenu.xml');
-	constructPictureBoxSet($("#languages"), 'data/programming_list.xml', 0, true);
+	constructPictureBoxSet($("#languages"), 'data/programming_list.xml', 2, true);
     constructFooter($("#footer"), 'data/footer.xml');
     setContentSize(1000);
     $("#menu").sticky({ topSpacing: 0 });

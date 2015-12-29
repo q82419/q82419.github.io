@@ -23,11 +23,11 @@ function constructFooter(footer, dataURL){
 
             style["width"] = _style.find("listwidth").text();
             style["height"] = _style.find("height").text();
-            style["padding"] = _style.find("padding").text();
+            style["margin"] = "0 auto";
             list.css(style);
             list.append('<div class="footertext">' + $(xml).find("data").find("content").text() + '</div>')
                 .find('div')
-                .css({"font": _font, "color":_color, "margin-right":_itemmargin});
+                .css({"font": _font, "color":_color, "margin-left":_itemmargin});
             $(xml).find("icon").each(function(index){
                 entryCnt += 1;
                 var _image = $(this).find("image").text(),
@@ -35,18 +35,22 @@ function constructFooter(footer, dataURL){
             	list.append('<div class="footericon" id="footericon' + entryCnt.toString() + '" href="' + $(this).find("href").text() + '"></div>')
             	    .find("#footericon" + entryCnt.toString())
             	    .css({"width": _iconsize, "height": _iconsize,
-            	    	  "background": getFooterIconBackCSSString(_image),
+            	    	  "background": _background + " " + getFooterIconBackCSSString(_image),
             	    	  "background-size": _iconsize + " " + _iconsize,
             	    	  "margin": ((parsePx(style["height"]) - parsePx(_iconsize)) / 2).toString() + "px " + _itemmargin + " 0px 0px",
                           "border-radius": _radius})
                     .hover(function(){
-                        $(this).css({"background": getFooterIconBackCSSString(_imagehover), 
+                        $(this).css({"background": _background + " " + getFooterIconBackCSSString(_imagehover), 
                                      "background-size": _iconsize + " " + _iconsize});
                     }, function(){
-                        $(this).css({"background": getFooterIconBackCSSString(_image),
+                        $(this).css({"background": _background + " " + getFooterIconBackCSSString(_image),
                                      "background-size": _iconsize + " " + _iconsize});
                     });
             });
+            list.css({width: Math.min(parsePx(style["width"]), $(footer).width()).toString() + "px"});
+            $(window).resize(function(){
+                list.css({width: Math.min(parsePx(style["width"]), $(footer).width()).toString() + "px"});
+            })
         }
     });
 }

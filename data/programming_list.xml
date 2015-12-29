@@ -62,9 +62,9 @@
     </data>
     <style>
         <font>'Apple Chancery', 'Monotype Corsiva', 'Comic Sans MS', 'sans-serif'</font>
-        <textsize>30px</textsize>
-        <width>170px</width>
-        <height>100px</height>
+        <textsize>20px</textsize>
+        <width>100px</width>
+        <height>50px</height>
         <radius>5px</radius>
         <margin>10 10 10 10</margin>
         <color>#ffffff</color>

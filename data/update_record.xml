@@ -14,6 +14,20 @@
         <category>Homepage</category>
         <categoryhref>index.html</categoryhref>
         <categoryback>#ff8f86</categoryback>
+        <subcategory>Elements</subcategory>
+        <subcategoryhref>#</subcategoryhref>
+        <subcategoryback>#f56363</subcategoryback>
+        <title>Footer is updated.</title>
+        <date>2015/09/04</date>
+        <body>The footer's copyright message and some sute icons are finished.&lt;br&gt;
+              More cute social website icons and links will be added in the future.&lt;br&gt;
+              頁底的版權訊息和可愛的圖示完成了。&lt;br&gt;
+              未來會再加一些社群網站的圖示和連結。</body>
+    </data>
+    <data>
+        <category>Homepage</category>
+        <categoryhref>index.html</categoryhref>
+        <categoryback>#ff8f86</categoryback>
         <subcategory>Styles</subcategory>
         <subcategoryhref>#</subcategoryhref>
         <subcategoryback>#f57463</subcategoryback>
